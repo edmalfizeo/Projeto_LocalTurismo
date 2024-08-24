@@ -118,3 +118,14 @@ h3 {
     text-align: center;
     margin: 0;
 }
+
+footer {
+    font-family: "Alice", sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+footer img {
+    vertical-align: middle;
+}
