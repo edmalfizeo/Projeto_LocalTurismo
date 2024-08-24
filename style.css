@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 88px 80px;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding-bottom: 0;
+}
+
+#title_page,
+#description,
+#content_list {
+    width: 100%;
+    max-width: 1140px; /* Centraliza o container */
+    margin: 0 auto 40px auto; /* Centraliza o container e adiciona espaço inferior */
+    text-align: left; /* Alinha todos os textos à esquerda */
+}
+
+#title_page h3 {
+    margin-bottom: 10px;
+}	
+
+#description img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#description p {
+    text-align: center;
+}
+
+#principal {
+    margin-top: 64px;
+    align-items: left;
+    margin-bottom: 8px;
+}
+
+#title_list p{
+    margin-bottom: 30px;
+}
+
+#list {
+    margin-bottom: 40px;
+}
+.card-travel img {
+    margin-top: 40px;
+}
+
+.description_card h3 {
+    margin-top: 20px;
+    margin-left: 1%;
+}
+
+p {
+    max-width: 1140px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.headline {
+    color: #E1624F;
+}
+
+.bom-para {
+    font-weight: bold;
+}
+
+.line {
+    margin-left: 2%;
+}
+
+#historia {
+    margin: 0;
+    color: #0C51A7;
+    font-weight: bold;
+}
+
+#casais {
+    font-weight: bold;
+    color: #591B98;
+}
+
+#familias {
+    font-weight: bold;
+    color: #E5245E;
+}
+
+#orcamentos {
+    font-weight: bold;
+    color: #E95E10;
+}
+
+#last-paragraph {
+    text-align: center;
+    margin: 0;
+}
